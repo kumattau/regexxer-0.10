@@ -1,1 +1,2 @@
-glib-single-include.patch
+regexxer-glib2.32.patch
+disable-glib-compile-schemas.patch

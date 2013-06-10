@@ -1,0 +1,24 @@
+Index: regexxer-0.10/Makefile.am
+===================================================================
+--- regexxer-0.10.orig/Makefile.am	2011-10-06 21:50:48.000000000 +0900
++++ regexxer-0.10/Makefile.am	2013-06-10 22:56:48.498084329 +0900
+@@ -108,7 +108,6 @@
+ @INTLTOOL_XML_NOMERGE_RULE@
+ 
+ install-data-hook: install-update-icon-cache
+-	$(GLIB_COMPILE_SCHEMAS) $(gsettingsschemadir)
+ #$(gsettingsupdateschemacache) $(gsettingsschemadir)
+ 
+ uninstall-hook: uninstall-update-icon-cache
+Index: regexxer-0.10/Makefile.in
+===================================================================
+--- regexxer-0.10.orig/Makefile.in	2011-10-06 22:01:45.000000000 +0900
++++ regexxer-0.10/Makefile.in	2013-06-10 22:57:08.102586663 +0900
+@@ -1092,7 +1092,6 @@
+ @INTLTOOL_XML_NOMERGE_RULE@
+ 
+ install-data-hook: install-update-icon-cache
+-	$(GLIB_COMPILE_SCHEMAS) $(gsettingsschemadir)
+ #$(gsettingsupdateschemacache) $(gsettingsschemadir)
+ 
+ uninstall-hook: uninstall-update-icon-cache
