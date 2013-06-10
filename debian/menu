@@ -1,0 +1,2 @@
+?package(regexxer):needs="X11" section="Applications/Programming" \
+  title="regexxer" command="/usr/bin/regexxer"

@@ -1,0 +1,118 @@
+regexxer (0.9-2.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Use ">=" for libpcre3-dev build-dependency.
+  * Switch to dpkg source format 3.0 (quilt).
+  * Add debian/patches/glib-single-include.patch to fix build failures with
+    glib 2.32 where including individual headers is no longer allowed.
+    (Closes: #669449)
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 06 May 2012 15:33:13 +0200
+
+regexxer (0.9-2) unstable; urgency=low
+
+  [ Ross Burton ]
+  
+  * Fix watch file (Closes: #453549)
+  * Bump Standards.
+  * Specify copyright owner
+  * Fix Apps/ in menu file
+
+  [ Kilian Krause ]
+  
+  * Add get-orig-source target.
+
+ -- Ross Burton <ross@debian.org>  Mon, 03 Mar 2008 10:18:26 +0000
+
+regexxer (0.9-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fix FSF address.
+
+ -- Ross Burton <ross@debian.org>  Thu, 26 Apr 2007 11:23:28 +0100
+
+regexxer (0.8-3) unstable; urgency=low
+
+  * Acknowledge NMU (closes: #318016)
+  * Add debian/watch
+  * Bump Standards Version.
+  * Add linker flags to reduce library deps
+
+ -- Ross Burton <ross@debian.org>  Tue, 11 Oct 2005 15:13:24 +0100
+
+regexxer (0.8-2.1) unstable; urgency=low
+
+  * Non-maintainer upload to move package to new C++ ABI. (Closes: #318016)
+
+ -- Petter Reinholdtsen <pere@debian.org>  Fri,  9 Sep 2005 19:40:04 +0200
+
+regexxer (0.8-2) unstable; urgency=low
+
+  * debian/control: build-depend on intltool to get the required packages.
+
+ -- Ross Burton <ross@debian.org>  Wed, 10 Nov 2004 09:54:49 +0000
+
+regexxer (0.8-1) unstable; urgency=low
+
+  * New upstream release (closes: #280143)
+  * Update build-depends for the new gtkmm package names
+  
+ -- Ross Burton <ross@debian.org>  Sun,  7 Nov 2004 15:35:42 +0000
+
+regexxer (0.7-2) unstable; urgency=low
+
+  * Rebuild in a pbuilder, whoops (closes: #251540)
+
+ -- Ross Burton <ross@debian.org>  Mon, 31 May 2004 15:22:07 +0100
+
+regexxer (0.7-1) unstable; urgency=low
+
+  * New upstream release
+  * Move to Standards 3.6.1
+  * Bump deps for the GConf use
+
+ -- Ross Burton <ross@debian.org>  Mon, 17 May 2004 18:33:55 +0100
+
+regexxer (0.5-2) unstable; urgency=low
+
+  * Uppercase "regexxer" in the .desktop file
+
+ -- Ross Burton <ross@debian.org>  Mon, 19 Jan 2004 08:18:55 +0000
+
+regexxer (0.5-1) unstable; urgency=low
+
+  * New upstream release
+  * Update my email address
+  * Move to Standards 3.6.0
+  * Switch to CDBS
+
+ -- Ross Burton <ross@debian.org>  Mon,  3 Nov 2003 18:24:25 +0000
+
+regexxer (0.4-3) unstable; urgency=low
+
+  * Rebuild against GCC 3.2 libraries.
+  * Build-Depend upon gtkmm >= 2.2.0-2
+
+ -- Ross Burton <ross@burtonini.com>  Thu, 16 Jan 2003 12:46:34 +0000
+
+regexxer (0.4-2) unstable; urgency=low
+
+  * debian/rules: Use Colin's Build System
+
+ -- Ross Burton <ross@burtonini.com>  Thu, 12 Dec 2002 18:35:04 +0000
+
+regexxer (0.4-1) unstable; urgency=low
+
+  * New upstream release
+  * Increase Standards to 3.5.8
+  * Remove locally installed .desktop file, as upstream have
+    incorporated it.
+
+ -- Ross Burton <ross@burtonini.com>  Wed, 20 Nov 2002 12:52:26 +0000
+
+regexxer (0.3-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Ross Burton <ross@burtonini.com>  Mon, 11 Nov 2002 14:35:27 +0000
+

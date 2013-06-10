@@ -1,0 +1,15 @@
+Source: regexxer
+Section: devel
+Priority: optional
+Maintainer: Ross Burton <ross@debian.org>
+Build-Depends: debhelper (>= 4.1.0), cdbs (>= 0.4.17), autotools-dev, intltool, libpcre3-dev (>= 5.0), libgtk2.0-bin, libgtkmm-2.4-dev (>= 2.6), libglademm-2.4-dev (>= 2.4.0), libgconfmm-2.6-dev (>= 2.6.1), gconf2
+Standards-Version: 3.7.3
+
+Package: regexxer
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A visual search and replace tool
+ Regexxer is a nifty GUI search/replace tool featuring Perl-style
+ regular expressions. If you need project-wide substitution and you're
+ tired of hacking sed command lines together, then you should
+ definitely give it a try.
